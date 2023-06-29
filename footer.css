@@ -1,0 +1,24 @@
+.sobreNos{
+    width: auto;;
+    height: auto;
+    background-color: #AEAEAE;
+    padding: 20px 20px 20px 20px;
+}
+div.sobreNos h1{
+    font-size: 28pt;
+}
+div.sobreNos p{
+    padding-top: 20px;
+    font-size: 20pt;
+}
+@media screen and (max-width:950px) {
+    .sobreNos{
+        padding: 20px 20px 20px 20px;
+    }
+    div.sobreNos h1{
+    font-size: 25pt;
+}
+div.sobreNos p{
+    font-size: 17pt;
+}
+}
