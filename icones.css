@@ -24,8 +24,10 @@
     height: 20px;
 }
 #iconeSetaDireita{
-    height: 50px;
+    width: 5vw;
+    height: 5vw;
 }
 #iconeSetaEsquerda{
-    width: 50px;
+    width: 5vw;
+    height: 5vw;
     }

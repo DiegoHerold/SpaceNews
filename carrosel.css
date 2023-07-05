@@ -29,6 +29,7 @@
     align-items: center;
 }
 
+
     
 .box{
     width: 40vw;
@@ -201,7 +202,6 @@ div.bloco3 p{
         margin-left: 0px;
         width: 70vw;
     }
-    .
 }
 @media screen and (max-width:450px) {
     div.bloco1 h1{
@@ -210,4 +210,5 @@ div.bloco3 p{
     div.bloco1 p{
         font-size: 9pt;
     }
+
 }

@@ -38,15 +38,57 @@
     align-items: center;
     gap: 5px;
 }
+/* ------------------------------------ */
+.menu-list{
+    height: 65vh;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+    left: 0px;
+    background-color: rgb(36, 36, 36);
+    border: 5px 5px 2px rgba(35, 35, 35, 0.486);
+}
+ul{
+    list-style-type: none;
+    padding: 20px 20%; 
+}
+div.menu-list ul li a{
+    font-size: 15pt;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+div.menu-list ul li a:hover{
+    color: rgb(170, 254, 254);
+    text-shadow: 2px 2px 2px teal;
+}
+/* ------------------------------------ */
+#assine a{
+    text-decoration:none;
+    color: #C33434;
+}
 .login{
     align-items: center;
+}
+.login h2 a{
+    text-decoration:none;
+    color: #C33434;
+}
+div.entrar h2 a{
+    text-decoration: none;
+    color: #C33434;
 }
 .pesquisar{
     align-items: center;
     gap: 5px;
     margin-right: 20px;
 }
-
+/* -----------------------------------------------------
+barra pesquisar
+----------------------------------------------------- */
 .blocoPesquisar{
     width: 500px;
     height: 50px;
@@ -67,6 +109,21 @@
     width: 400px;
     height: 30px;
 }
+
+.pesquisar h2 a{
+    text-decoration: none;
+    color: #C33434;
+    
+}
+.pesquisar{
+    margin-left: 20px;
+}
+.blocoPesquisar{
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+}
+/* ---------------------------------------- */
 
 .pagina{
     height: 30px;
@@ -90,6 +147,7 @@
     text-decoration: none;
     color: #C33434;
 }
+
 @media screen and (max-width:950px) {
     .menu,#assine,.entrar, .pesquisar{
     font-size: 10pt;
@@ -105,12 +163,17 @@
     .menu,.pesquisar{
         font-size: 6pt;
         } 
-    #assine,.entrar{
+    #assine,.login{
         position: absolute;
         z-index: -1;
     } 
 
 
+}
+@media screen and (max-width:500px){
+    .blocoPesquisar{
+        width: 100%;
+    }
 }
 @media screen and (max-width:450px) {
     .contatos{
@@ -119,3 +182,84 @@
     }
     
 }
+/* -----------------------------------------------------
+assinar
+----------------------------------------------------- */
+.planos{
+    padding: 50px 20px;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .MA{
+    width: 40vw;
+    height: 300px;
+    background-color: #0e2190;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726);
+  }
+  .planoMensal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  .planoMensal h1{
+    font-size: 25pt;
+  }
+  .planoMensal p{
+    
+    font-size: 9pt;
+  }
+  .planoMensal h2{
+    font-size: 15;
+  }
+  .planoAnual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  .planoAnual h1{
+    font-size: 25pt;
+  }
+  .planoAnual p{
+    font-size: 9pt;
+  }
+  .planoAnual h2{
+    font-size: 15;
+  }
+  #buttomMensal, #buttomAnual{
+    width: 20vw;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    width: 20vw;
+    color: white;
+  }
+  .outrosPlanos h1 a{
+    font-size: 8pt;
+    text-decoration: none;
+    color: grey;
+  }
+  .outrosPlanos{
+    display: flex;
+    justify-content: end;
+    margin-right: 10vw;
+  }
+  @media screen and (max-width: 600px){
+      .planos{flex-direction: column;
+      }
+      .MA{
+          width: 80vw;
+      }
+      #buttomMensal, #buttomAnual{
+          width: 30vw;
+      }
+  }

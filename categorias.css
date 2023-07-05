@@ -1,0 +1,104 @@
+.boxesTecnologia{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxTec{
+    width: 40vw;
+    height: auto ;
+    background-color: grey;
+    border-radius:15px;
+    padding: 20px;
+  }
+  div.box1 h1{
+    font-size: 15pt;
+  }
+   div.box1 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box1 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+    div.box2 h1{
+    font-size: 15pt;
+  }
+   div.box2 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box2 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+    div.box3 h1{
+    font-size: 15pt;
+  }
+   div.box3 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box3 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+    div.box4 h1{
+    font-size: 15pt;
+  }
+   div.box4 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box4 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+   div.box5 h1{
+    font-size: 15pt;
+  }
+   div.box5 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box5 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+   div.box6 h1{
+    font-size: 15pt;
+  }
+   div.box6 h2{
+     font-size: 10pt;
+     color: blue;
+   }
+   div.box6 p{
+     font-size: 12pt;
+     text-align: justify;
+   }
+  .Veja{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  #vejaMais{
+    color: white;
+    width: 100px;
+    height: 30px;
+    border:grey;
+    border-radius: 5px;
+    background-color: blue;
+  }
+  @media screen and (max-width:750px){
+    .boxesTecnologia{
+    flex-wrap:nowrap;
+    flex-direction: column;
+  }
+  .boxTec{
+    width: 80vw;
+    }
+  }

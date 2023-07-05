@@ -5,41 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="icones.css">
+    <link rel="stylesheet" href="main.css">
     <title>Conteudo</title>
 </head>
 <style>
-    .menu-list{
-        height: 65vh;
-        width: 20vw;
-        position: absolute;
-        z-index: 2;
-        top: 8px;
-        left: 0px;
-        background-color: rgb(36, 36, 36);
-        border: 5px 5px 2px rgba(35, 35, 35, 0.486);
-    }
-    ul{
-        list-style-type: none;
-        padding: 20px 20%; 
-    }
-    div.menu-list ul li a{
-        font-size: 15pt;
-        color: azure;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: none;
-        display: flex;
-        margin-bottom: 10px;
-    }
-    div.menu-list ul li a:hover{
-        color: rgb(170, 254, 254);
-        text-shadow: 2px 2px 2px teal;
-    }
     
 </style>
 <body>
+    <!-- ------------------------------------------------ -->
     <div class="menu-list">
         <ul>
-            <li><a href="#">Tecnologia</a></li>
+            <li><a href="tecnologia.html">Tecnologia</a></li>
             <li><a href="#">História</a></li>
             <li><a href="#">Ciencia</a></li>
             <li><a href="#">Astrofísica</a></li>
@@ -51,8 +27,10 @@
             <li><a href="#">Horóscopo</a></li>
         </ul>
     </div>
-    <a href="http://127.0.0.1:5500/SpaceNews/conteudo.html" id="fundo"><div class="fundoTransparente">
+    
+    <a href="conteudo.html" id="fundo"><div class="fundoTransparente">
     </div></a>
+    <!-- ------------------------------------------------ -->
     <div class="contatos">
         <h2 id="fale_conosco">(FALE CONOSCO)</h2>
         <div class="email row">
@@ -72,64 +50,64 @@
     </div>
     <div class="header">
         <div class="menu row">
-            <a href="http://127.0.0.1:5500/SpaceNews/conteudoMenu.html"><img src="Images/menuHamburguer.png" alt="menu" id="iconeMenu"></a>
+            <a href="conteudoMenu.html"><img src="Images/menuHamburguer.png" alt="menu" id="iconeMenu"></a>
             <h2>MENU</h2>
         </div>
-        <h2>ASSINE</h2>
+        <h2 id="assine"><a href="assinar.html">ASSINE</a></h2>
         <img src="Images/logoSpaceNews.png" alt="logo_spaceNews" id="iconeLogo">
         <div class="login row">
             <img src="Images/icone-login-removebg-preview.png" alt="imagem-login" id="iconeLogin">
-            <h2>ENTRAR</h2>
+            <h2> <a href="entrar.html">ENTRAR</a></h2>
         </div>
         <div class="pesquisar row">
-            <a href="http://127.0.0.1:5500/SpaceNews/pesquisar.html"><img src="Images/icone-pesquisa.png" alt="imagem-lupa" id="iconeLupa"></a>
+            <a href="conteudoPesquisar.html"><img src="Images/icone-pesquisa.png" alt="imagem-lupa" id="iconeLupa"></a>
             <h2>PESQUISAR</h2>
         </div>
     </div>
     <div class="pagina">
-        <h1 id="pag"><a href="http://127.0.0.1:5500/SpaceNews/index.html">PÁGINA INICIAL</a> > blog</h1>
+        <h1 id="pag"><a href="index.html">PÁGINA INICIAL</a> > blog</h1>
     </div>
     <main>
         <div class="textoConteudo">
         
-        <h1>Nasa adia retorno tripulado à superfície da Lua para não antes de 2025 </h1>
-        <br>
-        <div class="data">
-            <img src="Images/relogio (1).png" alt="relogio" id="relogio">
-            <div class="datatext"><p>14/01/2023 - 09h34min</p>
-            <p>atualizado em 02/04/2023 - 22h11min</p>
-            </div>  
-        </div>
-        <br>
-        <hr>
-        <p>A Nasa – agência espacial americana – decidiu adiar a realização da primeira missão tripulada à Lua desde 1972. O objetivo era que a viagem acontecesse em 2024, porém, o administrador da agência, Bill Nelson, confirmou a mudança nos planos em entrevista coletiva na terça-feira (9). Agora, o pouso lunar será adiado em pelo menos um ano, ou seja, não ocorrerá antes de 2025.</p>
-        <br>
-        <p>O motivo da decisão do atraso foi por um déficit de financiamento etambém uma ação judicial sobre o veículo de pouso.
-        Nos últimos dias, um juiz federal dos Estados Unidos aprovou a decisão da Nasa de conceder o contrato para construir um veículo de pouso junto da empresa SpaceX, de Elon Musk.</p> 
-        <br>
-        <img src="Images/bloco1.png" alt=""> 
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, id debitis iusto eos, quod nam quos cum at dicta, culpa doloremque voluptate aut. Totam aliquam deserunt pariatur dolorem aliquid exercitationem!</p>
-        <br>
-        <br>
-        <hr>
-        <br>
-        <div class="escritor">
-            <div class="imagemEscritor"></div>
-            <div class="escritorRedeSociais"><h1>Rogério da Silva</h1>
-                <div><img src="Images/whatsapp.png" alt="intragam">
-            <img src="Images/facebook (1).png" alt="facebook">
-            <img src="Images/twitter (2).png" alt="twitter"></div>
+            <h1>Nasa adia retorno tripulado à superfície da Lua para não antes de 2025 </h1>
+            <br>
+            <div class="data">
+                <img src="Images/relogio (1).png" alt="relogio" id="relogio">
+                <div class="datatext"><p>14/01/2023 - 09h34min</p>
+                <p>atualizado em 02/04/2023 - 22h11min</p>
+                </div>  
             </div>
-            
-        </div>
+            <br>
+            <hr>
+            <p>A Nasa – agência espacial americana – decidiu adiar a realização da primeira missão tripulada à Lua desde 1972. O objetivo era que a viagem acontecesse em 2024, porém, o administrador da agência, Bill Nelson, confirmou a mudança nos planos em entrevista coletiva na terça-feira (9). Agora, o pouso lunar será adiado em pelo menos um ano, ou seja, não ocorrerá antes de 2025.</p>
+            <br>
+            <p>O motivo da decisão do atraso foi por um déficit de financiamento etambém uma ação judicial sobre o veículo de pouso.
+            Nos últimos dias, um juiz federal dos Estados Unidos aprovou a decisão da Nasa de conceder o contrato para construir um veículo de pouso junto da empresa SpaceX, de Elon Musk.</p> 
+            <br>
+            <img src="Images/bloco1.png" alt="" id="foguete"> 
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, id debitis iusto eos, quod nam quos cum at dicta, culpa doloremque voluptate aut. Totam aliquam deserunt pariatur dolorem aliquid exercitationem!</p>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <div class="escritor">
+                <div class="imagemEscritor"></div>
+                <div class="escritorRedeSociais"><h1>Rogério da Silva</h1>
+                    <div><img src="Images/whatsapp.png" alt="intragam">
+                <img src="Images/facebook (1).png" alt="facebook">
+                <img src="Images/twitter (2).png" alt="twitter"></div>
+                </div>
+                
+            </div>
         </div> 
         <div class="listaRecentes">
             <h1>-Posts Recentes-</h1>
             <br>
             <hr>
-            <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2>
+        <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2>
             <br>
             <hr>
             <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2>
@@ -150,108 +128,10 @@
             <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2>
             <br>
             <hr>
-            <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2>
+            <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a> </h2></div>
+            
 
-        </div>
+        
     </main>
 </body>
-<style>
-    div.pagina h1 a{
-        font-size: 10pt;
-        text-decoration: none;
-        color: black;
-    }
-    main{
-        width: auto;
-        height: auto;
-        background-color: #AEAEAE;
-        display: flex;
-    }
-    main h1{
-        font-size: 20pt;
-    }
-    main p{
-        font-size: 15pt;
-    }
-    .textoConteudo{
-        padding: 30px;
-        text-align: justify;
-    }
-    .textoConteudo h1{
-        margin: 0px 60px;
-        text-align: center;
-    }
-    .data{
-        display: flex;
-
-    }
-    #relogio{
-        margin: auto 0px;
-        width: 20px;
-        height: 20px;
-    }
-    .datatext{
-        margin-left: 5px;
-        display: flex;
-        flex-direction: column;
-        color: #353535;
-    }
-    .datatext h1, .datatext p{
-        font-size: 12pt;
-    }
-    hr{
-        border-color: #242424;
-    }
-    .listaRecentes{
-        width: 70vw;
-        height: auto;
-        background-color:#AEAEAE;
-        padding: 15px;
-        border: 5px 0px 5px transparent;
-    }
-    div.listaRecentes h1{
-        font-size: 20pt;
-        text-align: center;
-        font-family:'Courier New', Courier, monospace;
-    }
-    div.listaRecentes h2 a{
-        font-size: 15pt;
-        text-align: justify;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-decoration: none;
-        color: #242424;
-    }
-    div.listaRecentes h2 a:hover{
-        color: #858484;
-    }
-    .escritor{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .imagemEscritor{
-    width: 70px;
-    height: 70px;
-    border-radius: 100px;
-    background: url('Images/images.jpg') no-repeat;
-    background-size: cover;
-    background-position: center, center; 
-    }
-    .escritorRedeSociais{
-        margin-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    div.escritorRedeSociais h1{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 0px;
-        margin-bottom: 5px;
-    }
-    div.escritor img{
-        width: 20px;
-        height: 20px;
-    }
-</style>
 </html>

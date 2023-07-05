@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>entrar</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .pagEntrar{
+        width: 500px;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
+    h1{
+        font-size: 30pt;
+        font-family: 'Courier New', Courier, monospace;
+        color: #0669DE;
+    }
+    #h2{
+        font-size: 18pt;
+        padding: 100px;
+        text-align: center;
+    }
+    .pagEntrar p {
+        font-size: 10pt;
+        text-align: left;
+    }
+    #email{
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    #senha{
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    #esqueceuSenha{
+        color: blue;
+        font-size: 10pt;
+        text-align: center;
+    }
+    #buttonEntrar{
+        font-size: 18pt;
+        width: 400px;
+        height: 40px;
+        border-radius: 5px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        background-color: #0669DE;
+    }
+    #cadastro{
+        font-size: 10pt;
+    }
+    #cadastro strong{
+        font-size: 11pt;
+        color: blue;
+    }
+    .meioCadastro{
+        display: flex;
+    }
+    .meioCadastro {
+        padding:  0px 100px;
+        gap: 10px;
+    }
+    .pagEntrar hr{
+        border-color: black;
+    }
+    #Facebook{
+        background-color: #0669DE;
+        color: white;
+        height: 30px;
+        width: 100px;
+    }
+    #Google{
+        background-color: aliceblue;
+        height: 30px;
+        width: 100px;
+    }
+</style>
+<body>
+<div class="pagEntrar">
+    <a href="index.html"><img src="Images/retornar.png" alt=""></a>
+    <br>
+    <h1>SpaceNews</h1>
+    <p id="h2">Receba as principais noticias sobre o espaço</p>
+    <p>email</p>
+    <input type="email" name="" id="email" placeholder="insira seu email">
+    <p>senha</p>
+    <input type="password" name="" id="senha" placeholder="insira sua senha">
+    <h3 id="esqueceuSenha">Esqueceu sua senha?</h3> 
+    <br>
+    <input type="button" value="ENTRAR" id="buttonEntrar">
+    <h3 id="cadastro">Não tem cadastro? <strong>CADASTRA-SE</strong></h3> 
+    <br> <br> <br>
+    <h3>Ou entre com <hr></h3>
+    <hr>
+    <br>
+    <div class="meioCadastro">
+        <input type="button" value="Facebook" id="Facebook">
+        <input type="button" value="Google" id="Google">
+    
+    </div>
+    <br>
+    <p>
+        Este site é protegido e está sujeito a sua <a href="#">Politica de Privacidade</a> e <a href="#">Termos de Uso</a>
+    </p>
+</div>
+
+</body>
+</html>
